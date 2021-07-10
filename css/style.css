@@ -1,25 +1,30 @@
-body {
-  background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Frunning-shoes&psig=AOvVaw0Ye8jAmtHQbTsUVcG2ZS3D&ust=1624859000866000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCPiE9eKNt_ECFQAAAAAdAAAAABAD');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+.navbar-header {
+  font-family: 'Pacifico', cursive;
+  font-size: 90px;
+  font-stretch: expanded;
+  color: #333333;
+  padding-left: 350px;
+  padding-top: 5px;
 }
 
-.navbar-header {
-  font-family: 'Permanent Marker', cursive;
-  font-size: 40px;
-  font-stretch: expanded;
-  color: #ccffff;
-  padding-left: 370px;
-  padding-top: 20px;
+p.description{
+    font-size: 20px;
+    padding-bottom: 15px;
+  }
+
+hr{
+  border-color: darkgray;
 }
- .logo-image{
+
+.logo-image{
     overflow: hidden;
     margin-top: -6px;
 }
+}
 
-.navbar {
+.navbar-light {
   padding: 15px;
+  border: 7px solid darkgray;
 }
 
 .navbar-right{
@@ -29,10 +34,12 @@ body {
 
 
 div.gallery {
-  margin-left: 160px;
+  margin-left: 140px;
   border: 1px solid #ccc;
   float: left;
-  width: 180px;
+  width: 317px;
+  margin-bottom: 40px;
+  margin-top: 20px;
 
 }
 
@@ -41,8 +48,8 @@ div.gallery:hover {
 }
 
 div.gallery img {
-  width: 100%;
-  height: 150px;
+  width: 315px;
+  height: 220px;
 }
 
 div.desc {
