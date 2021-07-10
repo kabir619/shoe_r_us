@@ -1,0 +1,51 @@
+body {
+  background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Frunning-shoes&psig=AOvVaw0Ye8jAmtHQbTsUVcG2ZS3D&ust=1624859000866000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCPiE9eKNt_ECFQAAAAAdAAAAABAD');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.navbar-header {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 40px;
+  font-stretch: expanded;
+  color: #ccffff;
+  padding-left: 370px;
+  padding-top: 20px;
+}
+ .logo-image{
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+.navbar {
+  padding: 15px;
+}
+
+.navbar-right{
+  font-size: 20px;
+  padding: 30px;
+}
+
+
+div.gallery {
+  margin-left: 160px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 150px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
