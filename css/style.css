@@ -3,22 +3,21 @@
   font-size: 90px;
   font-stretch: expanded;
   color: #333333;
-  padding-left: 350px;
+  padding-left: 370px;
   padding-top: 5px;
 }
 
-p.description{
-    font-size: 20px;
-    padding-bottom: 15px;
-  }
+
 
 hr{
-  border-color: darkgray;
+  width: 100%;
+  height : 4px;
+  color: darkgray;
 }
 
 .logo-image{
     overflow: hidden;
-    margin-top: -6px;
+    margin-top: 6px;
 }
 }
 
@@ -37,9 +36,10 @@ div.gallery {
   margin-left: 140px;
   border: 1px solid #ccc;
   float: left;
-  width: 317px;
+  width: 319px;
   margin-bottom: 40px;
   margin-top: 20px;
+  padding-bottom: 60px;
 
 }
 
@@ -55,4 +55,12 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
+}
+
+div.info{
+  font-family: 'Pacifico', cursive;
+  height: 280px;
+  background-color: #b4b8b5;
+  text-align: center;
+  font-size: 20px;
 }
